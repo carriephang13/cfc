@@ -6,8 +6,7 @@ body{
 }
 
 .index{
-  background-image: url(https://github.com/carriephang13/cfc/blob/master/background.png?raw=true);
-  /* background-image: url(file:///Users/starky/Desktop/BTS%20Love%20Yourself/Song%20Art/background.png); */
+  background-image: url(https://github.com/carriephang13/cfc/blob/master/openingimage.png?raw=true);
   background-size: cover;
   background-color: #e0e0e0;
 }
