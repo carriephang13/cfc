@@ -24,7 +24,7 @@ a:-webkit-any-link {
 }
 
 a:hover {
-  color: white;
+  color: #f9cde1;
 }
 
 .navbar {
@@ -57,6 +57,7 @@ a:hover {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
+  background-color: rgba(255,255,255,.5);
 }
 
 .aboutheadline{
@@ -83,7 +84,6 @@ a:hover {
   background-size: cover;
   background-color: #e0e0e0;
 }
-
 
 .songall{
   padding:20px;
@@ -120,4 +120,68 @@ ul li{
 .songtitle{
   font-family: 'lovelolinelight';
   font-size: 40px;
+}
+
+.play{
+  width: 15%;
+}
+
+.pause{
+  width: 15%;
+}
+
+.hidden{
+  display: none;
+}
+
+.sociallogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.twitterlogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 10%;
+  padding-left: 50%
+}
+
+.gramlogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 10%;
+}
+
+.tour{
+  /* background-image: url(https://github.com/carriephang13/cfc/blob/master/tourimage.png?raw=true); */
+  background-image: url(file:///Users/starky/Desktop/BTS%20Love%20Yourself/Song%20Art/tourimage.png);
+  background-size: cover;
+  background-color: #e0e0e0;
+}
+
+.tourinfo{
+  font-family:'loveloblack';
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255,255,255,.5);
+  width: 50%;
+}
+
+.tourcity{
+  flex: 50%;
+  padding-left: 25%
+}
+
+.tourdate{
+  flex: 50%;
 }
