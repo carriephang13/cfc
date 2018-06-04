@@ -17,7 +17,7 @@ function playMusic(){
 }
 $("#playBom").click(playMusic)
 
-function dimple(){
+function playMusic1(){
   if (playing == 1){
     $("#dimple").trigger("pause");
     $(".play").addClass("hidden")
@@ -33,9 +33,9 @@ function dimple(){
     playing = 0;
   }
 }
-$("#playDimple").click(dimple)
+$("#playDimple").click(playMusic1)
 
-function dna(){
+function playMusic2(){
   if (playing == 1){
     $("#dna").trigger("pause");
     $(".play").addClass("hidden")
@@ -51,4 +51,4 @@ function dna(){
     playing = 0;
   }
 }
-$("#playDna").click(dna)
+$("#playDna").click(playMusic2)
