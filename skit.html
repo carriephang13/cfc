@@ -2,8 +2,18 @@
   <title> Skit </title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" href="favicon.png" />
+  <link href="https://github.com/carriephang13/cfc/blob/master/Lovelo%20Line%20Light.otf" rel="stylesheet">
+  <link href="https://github.com/carriephang13/cfc/blob/master/Lovelo%20Black.otf" rel="stylesheet">
+
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Love Yourself - Her" />
+  <meta property="og:description" content="Serendipity"/>
+  <meta property="og:url"         content="https://carriephang13.github.io/cfc/skit.html" />
+  <meta property="og:image"       content="https://github.com/carriephang13/cfc/blob/master/SSskit.png?raw=true" />
+
   <script defer src="https://mpaulweeks.github.io/cfc2018/static/jquery.js"></script>
   <script defer src="main.js"></script>
+
 </head>
 
 
@@ -31,9 +41,9 @@
           </br>
           <a href="micdrop.html">MIC Drop</a>
           </br>
-          <a href="her.html">Her</a>
-          </br>
           <a href="skit.html">Skit</a>
+          </br>
+          <a href="her.html">Her</a>
         </div>
       </div>
 
@@ -51,8 +61,17 @@
     <div class="songinfo">
         <ul class="songdescription">
           <span class="songtitle"> Skit </span>
-          <li>To commemorate and relive that moment where we all cried because BTS won Top Social Artist at the Billboard Awards<li>
-        </ul>
+          <li>To commemorate and relive that moment where we all cried because BTS won Top Social Artist at the Billboard Awards</li>
+
+          <div>
+            <audio class="hidden" id="skit" src="skit.mp3" controls loop></audio>
+          </div>
+          <li id="playSkit">
+              <input type="image" class="play" src="https://github.com/carriephang13/cfc/blob/master/play.png?raw=true">
+              <input type="image" class="pause hidden" src="https://github.com/carriephang13/cfc/blob/master/pause.png?raw=true">
+          </li>
+
+          </ul>
     </div>
   </div>
 </body>
