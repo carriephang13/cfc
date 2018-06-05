@@ -151,8 +151,7 @@ ul li{
 }
 
 .tour{
-  /* background-image: url(https://github.com/carriephang13/cfc/blob/master/tourimage.png?raw=true); */
-  background-image: url(file:///Users/starky/Desktop/BTS%20Love%20Yourself/Song%20Art/tourbackground.jpg);
+  background-image: url(https://github.com/carriephang13/cfc/blob/master/tourbackground.jpg?raw=true);
   background-size: contain;
   background-position: top;
   background-color: #e0e0e0;
@@ -160,7 +159,7 @@ ul li{
 }
 
 .connect{
-  background-image: url(file:///Users/starky/Desktop/BTS%20Love%20Yourself/Song%20Art/connect.jpg);
+  background-image: url(https://github.com/carriephang13/cfc/blob/master/connect.jpg?raw=true);
   background-size: contain;
   background-position: top;
   background-color: #e0e0e0;
